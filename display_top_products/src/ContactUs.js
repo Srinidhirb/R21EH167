@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactUs.css'; // Import CSS for styling
+import './ContactUs.css'; 
 
 function ContactUs() {
   const [formData, setFormData] = useState({
@@ -18,9 +18,9 @@ function ContactUs() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Replace with actual submission logic (e.g., API call)
+   
     console.log(formData);
-    // Clear form fields after submission
+    
     setFormData({
       name: '',
       email: '',
